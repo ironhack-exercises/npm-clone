@@ -11,7 +11,7 @@ nav{
   background-color: #C12127;
   color: rgba(255,255,255,0.8);
   padding-top: 15px;
-  height: 100px;
+  height: 30px;
 }
 
 nav a {
@@ -45,34 +45,55 @@ nav a {
 
 .container {
   margin: 0 auto;
-  width: 70%;
+  width: 80%;
+  padding: 10% 0;
 }
 
-.header-container {
-  margin: 0 auto;
-  width: 90%;
+.logo-npm {
+  height: 3%;
+  width: 12%
 }
 
-.background-header {
-  background-image: url("./images/hero-cityscape.svg");
-  background-position: right;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 250px;
+.logo-bear{
+  height: 3%;
+  width: 3%;
 }
 
 .header {
   background-color: rgb(32, 101, 136);
+  background-image: url("./images/city-scape.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
   color: #fff;
 }
 
 .search-bar {
   background-color: rgb(31, 82, 111);
+  height: 10%;
+  width: 70%;
 }
 
 .collaboration-section {
   background-color: rgb(39, 53, 71);
   color: #fff;
+}
+
+.what-is-npm {
+  background-image: url("./images/forklift.svg");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  position: relative;
+  height: 450px;
+}
+
+.what-is-npm .container {
+  position: absolute;
+  width: 30%;
+  left: 15%;
+  top: 10%;
+
 }
 
 .col {
@@ -84,7 +105,7 @@ nav a {
 }
 
 .col-3 {
-  width: 30%;
+  width: 33%;
 }
 
 .col-middle {
@@ -93,6 +114,19 @@ nav a {
 
 .clearfix {
  clear: both;
+}
+
+.header a, .collaboration-section a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.ul-indentation {
+  padding-left: 5%;
+}
+
+.bold {
+  font-weight: bold;
 }
 
 .link-btn {
@@ -112,4 +146,30 @@ nav a {
 
 .collaboration-section .link-btn {
   background-color: rgb(203, 56, 55);
+  margin-bottom: 5px;
+}
+
+.what-is-npm .link-btn {
+  background-color: rgb(49, 68, 88);
+}
+
+.red-link {
+  text-decoration: none;
+  color: rgb(208, 74, 73);
+}
+
+.heading {
+  color: rgb(83, 88, 98);
+  text-align: center;
+}
+
+.paragraph {
+  color: rgb(135, 145, 156);
+  text-align: center;
+}
+
+.center-img {
+  display: block;
+  margin: 0 auto;
+  padding: 30px 0 20px 0;
 }
