@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family:"Open Sans","OpenSans",sans-serif;
+}
+
+nav{
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding-top: 15px;
+  height: 100px;
+}
+
+nav a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+}
+
+.top-left {
+  float: left;
+}
+
+.heart {
+  color: rgba(255,255,255,0.8);
+}
+
+.acronym{
+
+}
+
+.top-links{
+  float: right;
+  display: inline-block;
+  padding: 0;
+  margin: 0 20px 0 0;
+}
+
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 70%;
+}
+
+.header-container {
+  margin: 0 auto;
+  width: 90%;
+}
+
+.background-header {
+  background-image: url("./images/hero-cityscape.svg");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 250px;
+}
+
+.header {
+  background-color: rgb(32, 101, 136);
+  color: #fff;
+}
+
+.search-bar {
+  background-color: rgb(31, 82, 111);
+}
+
+.collaboration-section {
+  background-color: rgb(39, 53, 71);
+  color: #fff;
+}
+
+.col {
+  float:left;
+}
+
+.col-2 {
+  width: 45%;
+}
+
+.col-3 {
+  width: 30%;
+}
+
+.col-middle {
+  padding-right: 5%;
+}
+
+.clearfix {
+ clear: both;
+}
+
+.link-btn {
+  border-radius: 20px;
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  margin-top: 20px;
+  padding: 8px 10px;
+  text-align: center;
+  width: 120px;
+}
+
+.header .link-btn {
+  background-color: rgb(240, 146, 51);
+}
+
+.collaboration-section .link-btn {
+  background-color: rgb(203, 56, 55);
+}
