@@ -5,13 +5,19 @@
 
 body{
   font-family:"Open Sans","OpenSans",sans-serif;
+  font-size: 0.9em;
+
+}
+
+p, .collaboration-section li {
+  padding-top: 10px;
 }
 
 nav{
   background-color: #C12127;
   color: rgba(255,255,255,0.8);
-  padding-top: 15px;
-  height: 30px;
+  padding-top: 10px;
+  height: 25px;
 }
 
 nav a {
@@ -25,10 +31,6 @@ nav a {
 
 .heart {
   color: rgba(255,255,255,0.8);
-}
-
-.acronym{
-
 }
 
 .top-links{
@@ -69,7 +71,7 @@ nav a {
 
 .search-bar {
   background-color: rgb(31, 82, 111);
-  height: 10%;
+  height: 30%;
   width: 70%;
 }
 
